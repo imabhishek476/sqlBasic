@@ -1,0 +1,41 @@
+Compound Assignment Operator:
+Combination of Assignment operator arthmetic operator or some other operator is known as compound assignment.
+
+
+
+
+b += b+=2;
+
+
+
+
+
+
+
+Relational Operators:  ( > , < , >= , <= , == , != )
+Are used to compare 2 values or inputs.
+The result of relational operators will always be a boolean ( true or false).
+
+
+
+
+write a java program to write down to result of a condition that can check weather the last digit of any number is 7 0r not
+
+
+
+
+ factors 27 = 27
+
+
+
+b+= b+=2
+
+
+
+
+
+
+           int a = 24 ;
+           a %= 10;
+           System.out.println(a == 7);
+

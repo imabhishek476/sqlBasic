@@ -1,0 +1,33 @@
+ Data Type                Size                Default Value
+byte                    1 bytes                0
+short                   2 bytes                0
+int                     4 bytes                0
+long                    8 bytes                0
+float                   4 bytes                0
+double                  8 bytes                0
+boolean                 1 bit                  0
+char                    2 bytes                0
+
+
+
+Unicode  vs   ASCII:-
+
+
+Variables:
+It is a concept which act as container that used to store value. A variable can store any type of value(primitiva and non)
+we can change a variable value any time through out the program. When ever we change and update the value of variable then it gets updated at memory location
+
+Declaration of variable:
+The process of providing the name of the container variable with his data type is known as varible
+Syntax is : 
+
+
+Intializtion of variable:
+providing the value to already declared variable is known as intianlisation
+
+
+Note: we can declare and intialize in a single line
+syntax is : Datatype  variable_nake  = value;
+for example: int age = 24;
+
+we can follow a single line approach when we know the variable value in advanced

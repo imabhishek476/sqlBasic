@@ -1,0 +1,51 @@
+Operators in SQL:
+1. arthmetic operators (+,-,*,/)
+2. Comparison operators (=, !=)
+3. Concatenation operators (||)
+4. Relational operators (<,>,>=,<=)
+5. Logical Operators (AND, OR, NOT)
+6. Special Operators (IN ,  NOT IN , NOT BETWEEN , BETWEEN , IS , IS NOT , LIKE , LIKE NOT)
+7. Sub Query Operators (ALL , ANY , EXISTS , NOT EXISTS)
+8. Set Operators (UNION , UNION ALL , INTERSECT , MINUS , EXCEPT)
+
+
+---------------------------------------------------------------------------
+Concatenation Operators:
+It is used to joint 2 strings 
+Symbol:  ||  --> pipeline operator
+
+for ex.
+SELECT 'MR. '|| ENAME||' QSP' FROM EMP;
+SELECT ENAME || ' ' || JOB FROM EMP;
+
+
+Logical Operators:-
+Whenever we have multiple conditions to execute we use logical operatrs
+
+    AND Operator:- If the given condition are true then output will be true otherwise output will be false
+
+
+    write a query to display, emp name , job , dept no if emp working as manager in dept no 10.
+    QUERY :  select ENAME,JOB,DEPTNO FROM EMP
+             WHERE JOB = 'MANAGER' AND DEPTNO = 10;
+
+
+    QUERY : SELECT ENAME, SAL FROM EMP
+        WHERE SAL > 1250 AND SAL < 3000;
+
+
+
+
+     OR operator:- if among given condtions , any 1 condition is true then output will be  otherwise will be false
+
+     WRITE A QUERY TO DISPLAY ENAME, DEPTNO, IF THEY ARE WORKING IN DEPT NO 10 OR 20
+
+     QUERY: SELECT ENAME,DEPTNO FROM EMP
+            WHERE DEPTNO = 10 OR DEPTNO = 20;
+
+
+     WRITE AQUERY TO DISPLAY EMP NAME, JOB DEPT NO IF THEY ARE WORKING AS SALESMAN OR IN DEPT NO 20
+     QUERY: SELECT ENAME,JOB,DEPTNO FROM EMP
+            WHERE DEPTNO = 20 OR JOB = 'SALESMAN';
+
+      WRITE A QUERY TO DISPLAY ENAME,DEPTNO AND JOB IF THEY ARE WORKING AS MANAGER IN DEPT NO 10 OR 20;

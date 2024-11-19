@@ -1,0 +1,66 @@
+write a query to display ENAME, SALARY, with 200$ of penalty
+
+SELECT ENAME,SAL, SAL - 200
+FROM EMP;
+
+
+---------------------------------------------------------------------------------
+
+Alias NAME:
+Its an alternate name given to the column or an expression in a result table.
+we can asign aliasName with or without using 'AS' keyword.
+AliasName have to be a single string which is separated by an _ (underscore) or enclosed within " " (double quotes).
+
+SELECT ENAME, SAL, SAL*12 AS ("Annual Sal" || Annual_Sal )
+FROM EMP;
+
+
+
+
+
+Selection:
+It is a process of retriveing the data by selecting both rows and column is known as selection.
+
+Syntax:- SELECT * /[distinct] ColName /Expression AliasName
+FROM TableName
+WHERE <condition>;
+
+
+Order of execution:
+1. FROM clause
+2. WHERE " [Row by Row]
+3. SELECT "
+
+
+
+WHERE Clause:
+it executes row by row which is used to filter the records.
+
+
+question: Write a query to display employee details who are working in department no. 20
+
+SELECT * ENAME
+FROM EMP
+WHERE DEP_NO = 20;
+
+
+question:
+write a query to display EMP name , salary who are earning salary more than 2500
+
+
+SELECT ENAME, SAL
+FROM EMP
+WHERE SAL > 2500;
+
+
+
+
+question : write a query to display emp name, salary, job of the emp whi are working as salesname
+
+SELECT ENAME,SAL,JOB
+FROM EMP
+WHERE JOB = 'SALESMAN'
+
+
+
+

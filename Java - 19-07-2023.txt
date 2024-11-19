@@ -1,0 +1,17 @@
+shishodia
+operators are divided on the basis their task and number of operands.
+
+Arithmatic operators:
+are the binary operators that meets 2 values or operands to perform the task. are used to perform maths calculations 
+with different kind of values. ( + , - , * , /, %)
+
+
+
+'+' symbol:
+case 1 : if both the values or operand of plus symbol are of numeric type then plus symbol act as addition operator.
+         for ex: 10 + 20 = 30      5.0 + 2 = 7.0
+
+case 2 : if any of the operand of plus symbol is string type then plus symbol act as concatination operator
+   Note: concatination means join the data with string   for ex: "J" + 2 = "J2"
+
+result of          will be in string form only

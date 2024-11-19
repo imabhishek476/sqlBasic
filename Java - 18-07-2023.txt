@@ -1,0 +1,14 @@
+Primitive Typecasting:
+The precess of converting 1 primitive data into another primitive data range is known as Primitive typecasting.
+There are 2 primitive typecasting process:
+
+1) Widening:
+widening is the process in which we convert smaller range of primitive data type into large range of primitive data type.
+Binding Process happen impilcitily(internally done by compiler) because there is no possible chances of data loss.
+
+2) Narrowing:
+It is the process in which try to convert large range of primitive data type into smaller range of data type in narrowing process there are possible chances for data loss thats why compiler will not do it implicitly an will display error : incompitable type: possible lossy conversion.
+if we want to do narrowing process forcefully then java provides 1 uniary operator known as typecast operator.  Syntax [ = (data type)data; ]
+
+
+when ever we try to convert large range into smaller range then if data lies within the range of given data type then there will be no data loss but if data lies out of range then control will provide the corresponing range value according to the given data type.

@@ -1,0 +1,26 @@
+Keyword
+These are predefined and reserved words. All the keywords are compiler aware words.
+All keyword are written in small letters or lower case.
+
+prmitive Keywords (for/foreach, interface,implements,instanceof,final,try/catch, throw,throws,continue)
+
+
+Identifier
+are the name for class methods and variables provided by the programmer. In java identifiers have some rules and conventions
+
+Rules for Identifiers:
+Rules are common for all the identifiers
+1-- An identifiers can include uppercase A - Z , lowercase a-z , 0-9 digits and Special symbols only($ And _).
+
+2-- We can start an identifiers with a number.
+3-- Space is not allowed for identifiers.
+4-- A keywors can't be used as identifiers.
+
+
+---Conventions
+Conventions are the coding standard to write down the program or code in a standard way according to industry required. 
+All the programmer should follow the coding standard.
+
+Conventions for a class
+1-- If a class name has one word then first letter of the word should be capital and rest of should be in small i.e user defined--Program , Predefined-- (System, String)
+2-- If a class name has multiple word then first letter of each word should be capital and rest of the letter should be in small i.e CamelCase

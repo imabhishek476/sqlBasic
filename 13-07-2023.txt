@@ -1,0 +1,42 @@
+Literals:
+Literals are...
+Such information or values or data or inputs are known as literals.
+There are 2 types of literals- a) single value literals and b) multi-value literals
+
+Single Value literals known as primitive value.
+Multi Value literal known as non-primitive value.
+
+Single value Literals:- Numeric Literals value , Boolean Literals values, Character Literals
+Multi Value literal :-  String, ArrayList, LInkedList< Vector, hashSet , Every class &Object are Multi-value
+
+
+Data Types:
+is a concept that categories data according to their types and size.
+Data types help usto create a specific type of container to store different kind of data
+There are 2 types of of data types :-  Primitive data types , Non-Primitive data types
+
+
+Non-Primitive data types:
+it represent multi- value data . every class in java is a non- primitive data types either a class is 
+pre-defines or user defined
+
+
+Primitive Data types:
+are used to represent primitive values(single value literals). There are 8 pre-defined primitive data types present in the form of keywords
+
+
+
+
+1 bytes = 8 bits;
+1 bytes = 2^ no. of bits
+          2^8 => 256 values
+
+
+formula to find out the range of data types ==> (-2^ no. of bits-1)   to    (2^no of bits-1)
+
+
+
+
+
+
+

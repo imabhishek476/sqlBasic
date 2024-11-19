@@ -1,0 +1,50 @@
+User Input / Dynamic read :
+It is the process of reading or asking input from the user. User is going to enter some data and for that data logic is going to work.
+IN java programming language is possible bcz of predefined class known as Scanner
+
+
+how to read input from the user
+step 1: import the scanner class in program syntax is :
+
+lang package is default package of java that is used by compiler
+
+
+import java.packageName.ClassName; 
+class Test{
+public static void main(String []args){
+}
+}
+
+
+
+Step 2 : in order to use second class data in methods we have to create of scanner class then only access data or methods of scanner class
+Note: because all methods are non- static type
+
+
+
+Object Area :
+
+syntax : (ClassName or non- primitiva data type)  (reference Variable) =  (new Keyword) Constructor(argument);
+
+                         Scanner s = new Scanner(system.in);
+
+
+
+
+import java.packageName.ClassName; 
+class Test{
+public static void main(String []args){
+Scanner s = new Scanner(system.in);
+int a = s.nextInt();
+int b = s.nextInt();
+System.out.println(a + b);
+
+}
+}
+
+
+
+
+
+
+

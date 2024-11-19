@@ -1,0 +1,18 @@
+Varchar:
+a-z, A-Z , 0-9 and special characters(#,*,?,@,...). we can store upto 2000 characters.
+
+characters must be enclosed within single quota
+whenever we used var_char data type we must mention size.
+in var_char we can store upto 2000 characters.
+var_char data type follows variable length memory allocation.
+
+
+var_char 2 :
+it is an updated version of var_char.In var_char 2 we can store upto 4000 characters.
+
+Number:
+It is used to store numercal values.
+syntax:-  Number(Precision [scale])     []--> optional
+
+
+Precision:

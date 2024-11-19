@@ -1,0 +1,55 @@
+SPECIAL OPERATOR:
+ IN operator : its a multi value operator which can accept multiple values at right hand side.
+
+Syntax: ColName/Expression IN(v1,v2,v3.......,vn);
+
+Question:- write a query to display ename, deptno , who are working in dept = 10 or 30.
+
+          SELECT ENAME,DEPTNO FROM EMP
+          WHERE DEPTNO IN(10,30);       WHERE DEPTNO <11; //DEPT NO 1 TO 10
+
+
+QUESTION:- ename , job, and deptno if they are working as manager or analyst in dept no =20;
+
+SELECT ENAME, JOB , DEPTNO FROM EMP
+WHERE JOB IN('MANAGER','ANALYST') AND DEPTNO IN 20;
+
+  
+  NOT IN Operator: Its a multivalue operator which can accept multiple values at the rigth side. It is similar to IN operator speed of selecting it
+                   rejects value.
+
+
+   Syntax: ColName/Expression NOT IN(v1,v2,v3.......,vn);
+
+question: write aquery to display ename, job who are not working as clerk or manager.
+
+     SELECT ENAME, JOB FROM EMP
+     WHERE JOB NOT IN('CLERK' OR MANAGER);
+
+
+QUESTION : ENAME, JOB , DEPTN , WHO ARE NOT WORKING IN DEPT NO = 30 AND WORKING AS MANAGER OR ANALYST
+
+        SELECT ENAME,JOB, DEPTNO FROM EMP
+        WHERE DEPTNO NOT IN (30) AND JOB IN ('MANAGER','ANALYST');
+
+
+
+   
+   BETWEEN OPERATOR: WHEN EVER RANGE OF VALUES WE USE BETWEEN OPERATOR.
+   SYNTAX : ColName/Expression BETWEEN LowerValue and HigerVAlue;
+   it works including the range value.
+   
+
+
+
+QUESTION:  ename,sal if emp earning sal more than 1250 but less than 3000
+
+SELECT ENAME,SAL FROM EMP
+WHERE SAL BETWEEN 1250 AND 3000;
+
+QUESTION : ENAME , SAL , DEPTNO IF EMP EARNING SAL IN BETWEEN 1500 TO 3000 IN DEPTNO 20 OR 30
+
+
+
+
+

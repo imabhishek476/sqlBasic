@@ -1,0 +1,56 @@
+Types of variable:
+There are 2 types of variables: a) Local variable   b)Global Variable
+
+Local Variable:
+IF a variable is declared inside a block or method or constructor or any other block is known as Local Variable.
+
+Global Variable:
+if a variable directly declared inside the class block but outside the methodor bloack or constructor is known as global variable. for ex.  
+
+Class ProgramVar{
+String empId;   //Global variable
+int a;
+public static void main(String[] arr){
+  int i;   // Local Variable
+}
+}
+
+
+IMportant Points for Local variable:
+1--> A variable should declared only onces otherwise we will get compile time error
+2-->  If we want to use any local variable it should be intialised otherwise compiler will give us compile time error.
+Note: This happen because local variables does'nt have default values so its mandatory to provide value to a local variable before using it.
+3--> A local variable only visible inside the block where it is declared
+4--> A local variable creates when control comes inside a block and its gets destroyed when control comes out of the block
+
+
+Global Variable:
+
+IMportant Points for Global variable:
+1--> A global variable should declared only once
+2--> IF a programmer doesn't intialised global variable then global variable have the default values according to their data types so we can say that its not mandatory to intiallised a global varaible before using it
+3--> A global variable is visible throughout the class.
+Note: A global variable can also be visible outside the class as well but it depends on access modifier of a variable.
+4--> A global variable creation depends on the types of the gloabl variable.
+There are 2 types of Global variable-- 1) static variable  2) non-static variable
+
+
+TYpeCating: 
+The Process of converting 1 type of data into another  type of data is known as TypeCasting.
+
+There are 3 types of typeCasting...  1) Primitive Type Casting   2) NonPrimitive TypeCasting  3)Wrapper Class
+
+1) Primitive TypeCasting --->  Widening, Narrowing
+
+2) ( NonPrimitive TypeCastin --> Upcasting DownCasting ) is a Random Ineritance
+
+3) (   Wrapper Class --> Boxing , Unboxing  ) collection - API 
+
+
+
+
+
+
+
+
+

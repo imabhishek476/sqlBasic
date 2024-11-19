@@ -1,0 +1,23 @@
+Assignment operator:
+ ( = ) symbol is used as a assign ment operator. is used to assign a value in a container. it works right hand to left hand side
+Syntax : var-name/container = value/operation.
+
+for ex: int i = 2+3+4;
+
+
+Increment operator:
+In java ++ symbol is used to represent increment operator. It is used to increase a variable value by 1. 
+There are 2 types of increment operator. 1) Pre-Increment Operator     2)Post- Increment operator
+
+Pre-Increment Operator:
+if we prefix increment operator before varaible then such operation is known as pre increment.
+In preincrement first value gets updated at memory location then only it going to display
+for ex: int i = 13;  Sop(++i);   
+
+
+Post- Increment operator:
+If increment operator is suffix with variable name then such operation is known as post increment. In post increment first value gets displayed then only it will updated at memory location.
+for ex: int i = 13;  Sop(i++);
+
+
+decrement operator: ( --n , n--)             2 types : pre and post

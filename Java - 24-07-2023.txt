@@ -1,0 +1,30 @@
+LOgical AND operator:
+&& symbol is used to represent AND operator in java. Logical AND operator is binary operator which needs to boolean type of operands
+
+Result of AND operator will be boolean will be.
+Note: in logical AND operations if firat operand is false then control wwill not execurte the second operand and directly the output as false.
+
+
+
+Logical OR operator: (||)
+
+|| is used to represent logical or operator. Logical operator is binary operator that takes boolean types of values and result will be also boolean.
+
+
+&& || operator are used to compare 2 condition and realtional operators are used to compare 2 values.
+
+
+
+Logical : (!) 
+exclamatory is used to represent logical not it will take can be take only 1 boolean type. It change the previous state of the given operands.
+
+
+Conditional operators:
+is a ternary operator that means 3 operands to perform the task.  syntax--    op1 ? op2 : op3
+
+
+
+
+to check wheather the given num is multiple 3 & 5 . if yes else no
+  wheather the given number is neagative or positive 
+ to find out largestbetween 2 numberss and print the largest
